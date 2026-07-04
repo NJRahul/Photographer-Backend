@@ -3,6 +3,9 @@ const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 
+const PORT = process.env.PORT || 3000;
+const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
+
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
@@ -131,12 +134,12 @@ store.customers.forEach(c => {
 
 // ─── Admin Store ──────────────────────────────────────────────────────────────
 const DEFAULT_CATEGORIES = [
-  { id: 'cat_1', name: 'Sports',       imageUrl: 'http://localhost:3000/uploads/category_sports.jpg',       active: true, createdAt: Date.now() - 300*24*60*60*1000 },
-  { id: 'cat_2', name: 'Traditional',  imageUrl: 'http://localhost:3000/uploads/category_traditional.jpg',  active: true, createdAt: Date.now() - 300*24*60*60*1000 },
-  { id: 'cat_3', name: 'Corporate',    imageUrl: 'http://localhost:3000/uploads/category_corporate.jpg',    active: true, createdAt: Date.now() - 300*24*60*60*1000 },
-  { id: 'cat_4', name: 'Couple Shoot', imageUrl: 'http://localhost:3000/uploads/category_couple_shoot.jpg', active: true, createdAt: Date.now() - 300*24*60*60*1000 },
-  { id: 'cat_5', name: 'Events',       imageUrl: 'http://localhost:3000/uploads/category_events.jpg',       active: true, createdAt: Date.now() - 300*24*60*60*1000 },
-  { id: 'cat_6', name: 'Product',      imageUrl: 'http://localhost:3000/uploads/category_product.jpg',      active: true, createdAt: Date.now() - 300*24*60*60*1000 },
+  { id: 'cat_1', name: 'Sports',       imageUrl: `${BASE_URL}/uploads/category_sports.jpg`,       active: true, createdAt: Date.now() - 300*24*60*60*1000 },
+  { id: 'cat_2', name: 'Traditional',  imageUrl: `${BASE_URL}/uploads/category_traditional.jpg`,  active: true, createdAt: Date.now() - 300*24*60*60*1000 },
+  { id: 'cat_3', name: 'Corporate',    imageUrl: `${BASE_URL}/uploads/category_corporate.jpg`,    active: true, createdAt: Date.now() - 300*24*60*60*1000 },
+  { id: 'cat_4', name: 'Couple Shoot', imageUrl: `${BASE_URL}/uploads/category_couple_shoot.jpg`, active: true, createdAt: Date.now() - 300*24*60*60*1000 },
+  { id: 'cat_5', name: 'Events',       imageUrl: `${BASE_URL}/uploads/category_events.jpg`,       active: true, createdAt: Date.now() - 300*24*60*60*1000 },
+  { id: 'cat_6', name: 'Product',      imageUrl: `${BASE_URL}/uploads/category_product.jpg`,      active: true, createdAt: Date.now() - 300*24*60*60*1000 },
 ];
 const DEFAULT_SUBCATEGORIES = [
   { id: 'sub_1',  categoryId: 'cat_1', name: 'Cricket',       active: true },
@@ -700,7 +703,7 @@ app.post('/api/upload', (req, res) => {
   const buffer = Buffer.from(base64Data, 'base64');
   fs.writeFile(path.join(uploadsDir, filename), buffer, (err) => {
     if (err) return res.status(500).json({ error: 'Failed to save file' });
-    res.json({ url: `http://localhost:3000/uploads/${filename}` });
+    res.json({ url: `${BASE_URL}/uploads/${filename}` });
   });
 });
 
@@ -946,7 +949,6 @@ app.post('/api/coupons/validate', (req, res) => {
 // ═══════════════════════════════════════════════════════════════════════════════
 // START
 // ═══════════════════════════════════════════════════════════════════════════════
-const PORT = process.env.PORT || 3000;
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n Photographer API Server`);
   console.log(` Local:   http://localhost:${PORT}`);
