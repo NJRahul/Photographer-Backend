@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ban_1782756866525",
+    "active": true,
+    "createdAt": 1782756866525,
+    "title": "sample banner",
+    "imageUrl": "http://localhost:3000/uploads/upload_1782756866509.png"
+  },
+  {
+    "id": "ban_1782889776859",
+    "active": true,
+    "createdAt": 1782889776859,
+    "title": "sample banner 2",
+    "imageUrl": "http://localhost:3000/uploads/upload_1782889776843.png"
+  }
+]

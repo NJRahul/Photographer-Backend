@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cat_1",
+    "name": "Sports",
+    "imageUrl": "http://localhost:3000/uploads/category_sports.jpg",
+    "active": true,
+    "createdAt": 1756831064634
+  },
+  {
+    "id": "cat_2",
+    "name": "Traditional",
+    "imageUrl": "http://localhost:3000/uploads/category_traditional.jpg",
+    "active": true,
+    "createdAt": 1756831064634
+  },
+  {
+    "id": "cat_3",
+    "name": "Corporate",
+    "imageUrl": "http://localhost:3000/uploads/category_corporate.jpg",
+    "active": true,
+    "createdAt": 1756831064634
+  },
+  {
+    "id": "cat_4",
+    "name": "Couple Shoot",
+    "imageUrl": "http://localhost:3000/uploads/category_couple_shoot.jpg",
+    "active": true,
+    "createdAt": 1756831064634
+  },
+  {
+    "id": "cat_5",
+    "name": "Events",
+    "imageUrl": "http://localhost:3000/uploads/category_events.jpg",
+    "active": true,
+    "createdAt": 1756831064634
+  },
+  {
+    "id": "cat_6",
+    "name": "Product",
+    "imageUrl": "http://localhost:3000/uploads/category_product.jpg",
+    "active": true,
+    "createdAt": 1756831064634
+  },
+  {
+    "id": "cat_1782924504750",
+    "active": true,
+    "createdAt": 1782924504750,
+    "name": "Food Shoot",
+    "imageUrl": "http://localhost:3000/uploads/upload_1782924504719.png"
+  }
+]

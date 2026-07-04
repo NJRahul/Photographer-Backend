@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cop_1",
+    "code": "FIRST20",
+    "discount": 20,
+    "type": "percent",
+    "minOrder": 5000,
+    "maxUses": 100,
+    "usedCount": 48,
+    "expiry": "2026-12-31",
+    "active": true,
+    "categories": [
+      "all"
+    ]
+  },
+  {
+    "id": "cop_2",
+    "code": "FLAT500",
+    "discount": 500,
+    "type": "flat",
+    "minOrder": 3000,
+    "maxUses": 50,
+    "usedCount": 13,
+    "expiry": "2026-09-30",
+    "active": true,
+    "categories": [
+      "cat_3"
+    ]
+  },
+  {
+    "id": "cop_3",
+    "code": "WEDDING25",
+    "discount": 25,
+    "type": "percent",
+    "minOrder": 10000,
+    "maxUses": 30,
+    "usedCount": 10,
+    "expiry": "2026-11-30",
+    "active": true,
+    "categories": [
+      "cat_2"
+    ]
+  },
+  {
+    "id": "cop_1782909590984",
+    "active": true,
+    "usedCount": 2,
+    "code": "SPORTS20",
+    "type": "percent",
+    "discount": 20,
+    "minOrder": 5000,
+    "maxUses": 10,
+    "expiry": "2026-07-31",
+    "categories": [
+      "cat_1"
+    ]
+  }
+]

@@ -1,0 +1,409 @@
+[
+  {
+    "id": "BK1782752873964",
+    "createdAt": 1782752873964,
+    "status": "confirmed",
+    "photographerId": "photographer_1782490619396",
+    "photographerName": "Pixel Studio",
+    "customerId": "customer_1782751712445",
+    "customerName": "Rahul N J",
+    "customerPhone": "8778379395",
+    "category": "Traditional",
+    "shootDate": "2026-06-29",
+    "shootTime": "5:37 PM",
+    "shootAddress": "Vellattodu, Uthiramerur, Kanchipuram, Tamil Nadu, India, A123",
+    "bookedOn": "2026-06-29",
+    "requirements": [
+      "Photography (1 hr, 1 provider)",
+      "Videography (1 hr, 1 provider)",
+      "Drone Shot",
+      "Same Day Edit"
+    ],
+    "requirementCost": 14000,
+    "convenienceFee": 450,
+    "platformFee": 10,
+    "gstPercent": 18,
+    "total": 17063,
+    "selectedServices": [
+      {
+        "id": "svc_1",
+        "name": "Photography",
+        "hours": 1,
+        "numProviders": 1
+      },
+      {
+        "id": "svc_2",
+        "name": "Videography",
+        "hours": 1,
+        "numProviders": 1
+      }
+    ],
+    "selectedAddons": [
+      {
+        "id": "add_1",
+        "name": "Drone Shot"
+      },
+      {
+        "id": "add_2",
+        "name": "Same Day Edit"
+      }
+    ],
+    "acceptedAt": 1782756875569,
+    "gstAmount": 2603,
+    "lineItems": [
+      {
+        "label": "Photography (1h × 1)",
+        "amount": 1500
+      },
+      {
+        "label": "Videography (1h × 1)",
+        "amount": 1500
+      },
+      {
+        "label": "Drone Shot",
+        "amount": 6000
+      },
+      {
+        "label": "Same Day Edit",
+        "amount": 5000
+      },
+      {
+        "label": "Convenience Fee",
+        "amount": 450
+      },
+      {
+        "label": "Platform Fee",
+        "amount": 10
+      },
+      {
+        "label": "GST (18%)",
+        "amount": 2603
+      }
+    ],
+    "paidAt": 1782757007617,
+    "startOtp": "6417"
+  },
+  {
+    "id": "BK1782891531742",
+    "createdAt": 1782891531742,
+    "status": "accepted",
+    "photographerId": "photographer_1782490619396",
+    "photographerName": "Pixel Studio",
+    "customerId": "customer_1782751712445",
+    "customerName": "Rahul N J",
+    "customerPhone": "8778379395",
+    "category": "Sports",
+    "shootDate": "2026-07-01",
+    "shootTime": "1:08 PM",
+    "shootAddress": "Pozhichalur, Alandur, Chennai, Tamil Nadu, 600074, India, A12345",
+    "bookedOn": "2026-07-01",
+    "requirements": [
+      "Photography (4 hrs, 2 providers)",
+      "Videography (4 hrs, 2 providers)",
+      "Drone Shot",
+      "Same Day Edit"
+    ],
+    "requirementCost": 35000,
+    "convenienceFee": 450,
+    "platformFee": 10,
+    "gstPercent": 18,
+    "total": 41843,
+    "selectedServices": [
+      {
+        "id": "svc_1",
+        "name": "Photography",
+        "hours": 4,
+        "numProviders": 2
+      },
+      {
+        "id": "svc_2",
+        "name": "Videography",
+        "hours": 4,
+        "numProviders": 2
+      }
+    ],
+    "selectedAddons": [
+      {
+        "id": "add_1",
+        "name": "Drone Shot"
+      },
+      {
+        "id": "add_2",
+        "name": "Same Day Edit"
+      }
+    ],
+    "acceptedAt": 1782903256771,
+    "gstAmount": 6383,
+    "lineItems": [
+      {
+        "label": "Photography (4h × 2)",
+        "amount": 12000
+      },
+      {
+        "label": "Videography (4h × 2)",
+        "amount": 12000
+      },
+      {
+        "label": "Drone Shot",
+        "amount": 6000
+      },
+      {
+        "label": "Same Day Edit",
+        "amount": 5000
+      },
+      {
+        "label": "Convenience Fee",
+        "amount": 450
+      },
+      {
+        "label": "Platform Fee",
+        "amount": 10
+      },
+      {
+        "label": "GST (18%)",
+        "amount": 6383
+      }
+    ]
+  },
+  {
+    "id": "BK1782903247881",
+    "createdAt": 1782903247881,
+    "status": "accepted",
+    "photographerId": "photographer_1782490619396",
+    "photographerName": "Pixel Studio",
+    "customerId": "customer_1782751712445",
+    "customerName": "Rahul N J",
+    "customerPhone": "8778379395",
+    "category": "Sports",
+    "shootDate": "2026-07-09",
+    "shootTime": "4:24 PM",
+    "shootAddress": "Address not specified",
+    "bookedOn": "2026-07-01",
+    "requirements": [
+      "Photography (1 hr, 1 provider)"
+    ],
+    "requirementCost": 1500,
+    "convenienceFee": 450,
+    "platformFee": 10,
+    "gstPercent": 18,
+    "total": 2313,
+    "selectedServices": [
+      {
+        "id": "svc_1",
+        "name": "Photography",
+        "hours": 1,
+        "numProviders": 1
+      }
+    ],
+    "selectedAddons": [],
+    "acceptedAt": 1782903443189,
+    "gstAmount": 353,
+    "lineItems": [
+      {
+        "label": "Photography (1h × 1)",
+        "amount": 1500
+      },
+      {
+        "label": "Convenience Fee",
+        "amount": 450
+      },
+      {
+        "label": "Platform Fee",
+        "amount": 10
+      },
+      {
+        "label": "GST (18%)",
+        "amount": 353
+      }
+    ]
+  },
+  {
+    "id": "BK1782909217552",
+    "createdAt": 1782909217552,
+    "status": "accepted",
+    "photographerId": "photographer_1782490619396",
+    "photographerName": "Pixel Studio",
+    "customerId": "customer_1782751712445",
+    "customerName": "Rahul N J",
+    "customerPhone": "8778379395",
+    "category": "Traditional",
+    "shootDate": "2026-07-01",
+    "shootTime": "6:03 PM",
+    "shootAddress": "Address not specified",
+    "bookedOn": "2026-07-01",
+    "requirements": [
+      "Photography (1 hr, 1 provider)",
+      "Videography (1 hr, 1 provider)"
+    ],
+    "requirementCost": 3000,
+    "convenienceFee": 450,
+    "platformFee": 10,
+    "gstPercent": 18,
+    "total": 4083,
+    "selectedServices": [
+      {
+        "id": "svc_1",
+        "name": "Photography",
+        "hours": 1,
+        "numProviders": 1
+      },
+      {
+        "id": "svc_2",
+        "name": "Videography",
+        "hours": 1,
+        "numProviders": 1
+      }
+    ],
+    "selectedAddons": [],
+    "acceptedAt": 1782909305638,
+    "gstAmount": 623,
+    "lineItems": [
+      {
+        "label": "Photography (1h × 1)",
+        "amount": 1500
+      },
+      {
+        "label": "Videography (1h × 1)",
+        "amount": 1500
+      },
+      {
+        "label": "Convenience Fee",
+        "amount": 450
+      },
+      {
+        "label": "Platform Fee",
+        "amount": 10
+      },
+      {
+        "label": "GST (18%)",
+        "amount": 623
+      }
+    ]
+  },
+  {
+    "id": "BK1782909469903",
+    "createdAt": 1782909469903,
+    "status": "accepted",
+    "photographerId": "photographer_1782490619396",
+    "photographerName": "Pixel Studio",
+    "customerId": "customer_1782751712445",
+    "customerName": "Rahul N J",
+    "customerPhone": "8778379395",
+    "category": "Traditional",
+    "shootDate": "2026-07-01",
+    "shootTime": "6:07 PM",
+    "shootAddress": "Address not specified",
+    "bookedOn": "2026-07-01",
+    "requirements": [
+      "Photography (4 hrs, 1 provider)",
+      "Videography (4 hrs, 2 providers)"
+    ],
+    "requirementCost": 18000,
+    "convenienceFee": 450,
+    "platformFee": 10,
+    "gstPercent": 18,
+    "total": 21783,
+    "selectedServices": [
+      {
+        "id": "svc_1",
+        "name": "Photography",
+        "hours": 4,
+        "numProviders": 1
+      },
+      {
+        "id": "svc_2",
+        "name": "Videography",
+        "hours": 4,
+        "numProviders": 2
+      }
+    ],
+    "selectedAddons": [],
+    "acceptedAt": 1782909492232,
+    "gstAmount": 3323,
+    "lineItems": [
+      {
+        "label": "Photography (4h × 1)",
+        "amount": 6000
+      },
+      {
+        "label": "Videography (4h × 2)",
+        "amount": 12000
+      },
+      {
+        "label": "Convenience Fee",
+        "amount": 450
+      },
+      {
+        "label": "Platform Fee",
+        "amount": 10
+      },
+      {
+        "label": "GST (18%)",
+        "amount": 3323
+      }
+    ]
+  },
+  {
+    "id": "BK1782925546892",
+    "createdAt": 1782925546892,
+    "status": "accepted",
+    "photographerId": "photographer_1782490619396",
+    "photographerName": "Pixel Studio",
+    "customerId": "customer_1782751712445",
+    "customerName": "Rahul N J",
+    "customerPhone": "8778379395",
+    "category": "Traditional",
+    "shootDate": "2026-07-01",
+    "shootTime": "10:35 PM",
+    "shootAddress": "Selected Location, A123",
+    "bookedOn": "2026-07-01",
+    "requirements": [
+      "Photography (4 hrs, 1 provider)",
+      "Videography (4 hrs, 1 provider)"
+    ],
+    "requirementCost": 12000,
+    "convenienceFee": 450,
+    "platformFee": 10,
+    "gstPercent": 18,
+    "total": 14703,
+    "selectedServices": [
+      {
+        "id": "svc_1",
+        "name": "Photography",
+        "hours": 4,
+        "numProviders": 1
+      },
+      {
+        "id": "svc_2",
+        "name": "Videography",
+        "hours": 4,
+        "numProviders": 1
+      }
+    ],
+    "selectedAddons": [],
+    "acceptedAt": 1782925584275,
+    "gstAmount": 2243,
+    "lineItems": [
+      {
+        "label": "Photography (4h × 1)",
+        "amount": 6000
+      },
+      {
+        "label": "Videography (4h × 1)",
+        "amount": 6000
+      },
+      {
+        "label": "Convenience Fee",
+        "amount": 450
+      },
+      {
+        "label": "Platform Fee",
+        "amount": 10
+      },
+      {
+        "label": "GST (18%)",
+        "amount": 2243
+      }
+    ]
+  }
+]

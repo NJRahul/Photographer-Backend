@@ -1,0 +1,174 @@
+[
+  {
+    "id": "photographer_1",
+    "name": "Rudimax Studio",
+    "contactPerson": "Rudi Max",
+    "email": "studio@rudimax.com",
+    "password": "123456",
+    "phone": "9876543211",
+    "rating": 4.8,
+    "totalBookings": 120,
+    "specializations": [
+      "Traditional",
+      "Wedding",
+      "Corporate",
+      "Sports"
+    ],
+    "categories": [
+      "Traditional",
+      "Wedding",
+      "Corporate",
+      "Sports"
+    ],
+    "bio": "Professional photography & videography studio with 10+ years of experience.",
+    "about": "Professional photography & videography studio with 10+ years of experience.",
+    "imageUrl": null,
+    "services": [],
+    "addons": [],
+    "portfolioPhotos": [],
+    "portfolioVideos": [],
+    "active": true,
+    "banned": false,
+    "banReason": null,
+    "passwordSet": true,
+    "joinedAt": 1750953783706
+  },
+  {
+    "id": "photographer_2",
+    "name": "Lens & Light Co.",
+    "contactPerson": "",
+    "email": "lens@example.com",
+    "password": "123456",
+    "phone": "9876500001",
+    "rating": 4.5,
+    "totalBookings": 64,
+    "specializations": [
+      "Events",
+      "Couple Shoot",
+      "Product"
+    ],
+    "categories": [
+      "Events",
+      "Couple Shoot",
+      "Product"
+    ],
+    "bio": "Capturing emotions one frame at a time.",
+    "about": "Capturing emotions one frame at a time.",
+    "imageUrl": null,
+    "services": [],
+    "addons": [],
+    "portfolioPhotos": [],
+    "portfolioVideos": [],
+    "active": true,
+    "banned": false,
+    "banReason": null,
+    "passwordSet": true,
+    "joinedAt": 1766937783707
+  },
+  {
+    "id": "photographer_3",
+    "name": "Pixel Perfect",
+    "contactPerson": "",
+    "email": "pixel@example.com",
+    "password": "123456",
+    "phone": "9876500002",
+    "rating": 4.2,
+    "totalBookings": 32,
+    "specializations": [
+      "Sports",
+      "Corporate"
+    ],
+    "categories": [
+      "Sports",
+      "Corporate"
+    ],
+    "bio": "Precision photography for sports and business.",
+    "about": "Precision photography for sports and business.",
+    "imageUrl": null,
+    "services": [],
+    "addons": [],
+    "portfolioPhotos": [],
+    "portfolioVideos": [],
+    "active": false,
+    "banned": false,
+    "banReason": null,
+    "passwordSet": true,
+    "joinedAt": 1774713783707
+  },
+  {
+    "id": "photographer_1782490619396",
+    "rating": 0,
+    "totalBookings": 0,
+    "active": true,
+    "contactPerson": "Rahul",
+    "categories": [
+      "Sports",
+      "Traditional",
+      "Corporate",
+      "Couple Shoot",
+      "Events",
+      "Product"
+    ],
+    "about": "We are industry leading photography company with more than 15+ years of experience. We are a team of 50+ skilled professionals.",
+    "imageUrl": "http://localhost:3000/uploads/upload_1782490328255.jpg",
+    "services": [
+      {
+        "id": "svc_1",
+        "name": "Photography",
+        "pricePerHour": 1500
+      },
+      {
+        "id": "svc_2",
+        "name": "Videography",
+        "pricePerHour": 1500
+      }
+    ],
+    "addons": [
+      {
+        "id": "add_1",
+        "name": "Drone Shot",
+        "price": 6000
+      },
+      {
+        "id": "add_2",
+        "name": "Same Day Edit",
+        "price": 5000
+      }
+    ],
+    "portfolioPhotos": [
+      "http://localhost:3000/uploads/upload_1782490461245.jpg",
+      "http://localhost:3000/uploads/upload_1782490461295.jpg",
+      "http://localhost:3000/uploads/upload_1782490461316.jpg",
+      "http://localhost:3000/uploads/upload_1782490461336.jpg",
+      "http://localhost:3000/uploads/upload_1782490461473.jpg",
+      "http://localhost:3000/uploads/upload_1782490461684.jpg",
+      "http://localhost:3000/uploads/upload_1782490462221.jpg",
+      "http://localhost:3000/uploads/upload_1782490462423.jpg"
+    ],
+    "portfolioVideos": [
+      "http://localhost:3000/uploads/upload_1782490607259.mp4",
+      "http://localhost:3000/uploads/upload_1782490608175.mp4",
+      "http://localhost:3000/uploads/upload_1782490609344.mp4"
+    ],
+    "banned": false,
+    "banReason": null,
+    "passwordSet": true,
+    "joinedAt": 1782490619396,
+    "name": "Pixel Studio",
+    "email": "njrahul0908@gmail.com",
+    "phone": "8778379395",
+    "password": "Studio@123",
+    "changeLog": [
+      {
+        "id": "log_1782903051909",
+        "timestamp": 1782903051909,
+        "source": "studio",
+        "changedBy": "Pixel Studio",
+        "fields": [
+          "bio"
+        ]
+      }
+    ],
+    "bio": "We are industry leading photography company with more than 15+ years of experience. We are a team of 50+ skilled professionals."
+  }
+]

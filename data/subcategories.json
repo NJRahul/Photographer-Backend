@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sub_1",
+    "categoryId": "cat_1",
+    "name": "Cricket",
+    "active": true
+  },
+  {
+    "id": "sub_2",
+    "categoryId": "cat_1",
+    "name": "Football",
+    "active": true
+  },
+  {
+    "id": "sub_3",
+    "categoryId": "cat_1",
+    "name": "Basketball",
+    "active": true
+  },
+  {
+    "id": "sub_4",
+    "categoryId": "cat_2",
+    "name": "Wedding",
+    "active": true
+  },
+  {
+    "id": "sub_5",
+    "categoryId": "cat_2",
+    "name": "Engagement",
+    "active": true
+  },
+  {
+    "id": "sub_6",
+    "categoryId": "cat_3",
+    "name": "Conference",
+    "active": true
+  },
+  {
+    "id": "sub_7",
+    "categoryId": "cat_3",
+    "name": "Team Building",
+    "active": true
+  },
+  {
+    "id": "sub_8",
+    "categoryId": "cat_3",
+    "name": "Annual Day",
+    "active": true
+  },
+  {
+    "id": "sub_9",
+    "categoryId": "cat_4",
+    "name": "Pre-Wedding",
+    "active": true
+  },
+  {
+    "id": "sub_10",
+    "categoryId": "cat_4",
+    "name": "Post-Wedding",
+    "active": true
+  },
+  {
+    "id": "sub_11",
+    "categoryId": "cat_5",
+    "name": "Birthday",
+    "active": true
+  },
+  {
+    "id": "sub_12",
+    "categoryId": "cat_5",
+    "name": "Anniversary",
+    "active": true
+  },
+  {
+    "id": "sub_13",
+    "categoryId": "cat_5",
+    "name": "Baby Shower",
+    "active": true
+  },
+  {
+    "id": "sub_14",
+    "categoryId": "cat_6",
+    "name": "E-commerce",
+    "active": true
+  },
+  {
+    "id": "sub_15",
+    "categoryId": "cat_6",
+    "name": "Catalogue",
+    "active": true
+  },
+  {
+    "id": "sub_1782925443368",
+    "active": true,
+    "name": "Menu Card",
+    "categoryId": "cat_1782924504750"
+  },
+  {
+    "id": "sub_1782925458645",
+    "active": true,
+    "name": "Social Media",
+    "categoryId": "cat_1782924504750"
+  }
+]

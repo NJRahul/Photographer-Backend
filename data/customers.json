@@ -1,0 +1,32 @@
+[
+  {
+    "id": "customer_1782464112069",
+    "name": "Test User",
+    "email": "test@test.com",
+    "password": "123456",
+    "phone": "9999999999",
+    "joinedAt": 1782464112069,
+    "banned": false,
+    "banReason": null
+  },
+  {
+    "id": "customer_1782464149000",
+    "name": "Test Customer",
+    "email": "demo@test.com",
+    "password": "123456",
+    "phone": "9876543210",
+    "joinedAt": 1782464149000,
+    "banned": false,
+    "banReason": null
+  },
+  {
+    "id": "customer_1782751712445",
+    "name": "Rahul N J",
+    "email": "njrahul0908@gmail.com",
+    "password": "Test@123456",
+    "phone": "8778379395",
+    "banned": false,
+    "banReason": null,
+    "joinedAt": 1782751712445
+  }
+]
